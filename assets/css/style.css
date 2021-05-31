@@ -18,3 +18,41 @@ ion-icon {
 .purple{
   background-color: purple;
 }
+.container h1{
+    font-size: 36px;
+    padding: 10px;
+    font-weight: 700;
+}
+.container h3{
+    font-size: 26px;
+    font-weight: 700;
+}
+.jumbotron-fluid{
+    background-color: #084e94;
+}
+#add-city{
+    width: 100%;
+    color: white;
+}
+.col-3 hr{
+    border-top: 2px solid rgba(0,0,0,.5);
+}
+#today-weather span{
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+    border-radius: 5px;
+}
+#boxes{
+    color: white;
+}
+#boxes .bg-color {
+    background-color: #596877;
+}
+#boxes h6{
+    padding-top: 5px;
+}
+#boxes p{
+    font-size: 15px;
+}
