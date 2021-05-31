@@ -194,3 +194,9 @@ function renderCities() {
     });
   }
 
+  //Click function to each Li 
+  $(document).on("click", "#listC", function() {
+    var thisCity = $(this).attr("data-city");
+    getResponseWeather(thisCity);
+  });
+
